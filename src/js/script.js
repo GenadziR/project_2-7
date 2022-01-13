@@ -14,23 +14,31 @@ let appData = {
 
 
 
-/* 
+
 for (let i = 0; i < 2; i++) {
     let a = prompt ("Введите обязательную статью расходов в этом месяце", "квартплата");
     let b = prompt ("Во сколько обойдется?", "40");
     if ((typeof(a)==="string") && (a != null) && (b != null) && a != "" && b != "" && a.length < 50) {
         appData.expenses [a] = b;
     } else {i--}
-}; */
+}; 
 let i = 0;
-while (i < 2) {
+/* while (i < 2) {
     let a = prompt ("Введите обязательную статью расходов в этом месяце", "квартплата");
     let b = prompt ("Во сколько обойдется?", "40");
     if ((typeof(a)==="string") && (a != null) && (b != null) && a != "" && b != "" && a.length < 50) {
         appData.expenses [a] = b;
     } else {i--}
     i++;
-};
+}; */
+/* do {
+    let a = prompt ("Введите обязательную статью расходов в этом месяце", "квартплата");
+    let b = prompt ("Во сколько обойдется?", "40");
+    if ((typeof(a)==="string") && (a != null) && (b != null) && a != "" && b != "" && a.length < 50) {
+        appData.expenses [a] = b;
+    } else {i--}
+    i++;
+} while (i<2); */
 
 /* console.log (appData.expenses); */
 
